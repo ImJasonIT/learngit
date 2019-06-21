@@ -1,4 +1,4 @@
-1. git init                      //在项目根目录去初始化一个git仓库
+﻿1. git init                      //在项目根目录去初始化一个git仓库
 2. git add fileName.fileType     //可以add多个文件
 3. git commit -m "message"       //commit 最好一定加本次提交附带的信息
 4. git status                    //查看文件的修改状态，要随时掌握工作区的状态，使用git status命令
@@ -7,3 +7,5 @@
 7. git reset --hard commitId  	 //回退版本，commitId是可以看git log里面，不一定全输入，只输入前七位git会自动搜索
 8. git reflog                    //用来记录你的每一次命令，可以找回commitId
 9. git checkout -- test.txt      //就是让这个文件回到最近一次git commit或git add时的状态
+10.rm test.txt                   //直接在文件管理器中把没用的文件删了
+11.git rm test.txt               //从版本库中删除该文件
