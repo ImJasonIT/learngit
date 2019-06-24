@@ -17,3 +17,6 @@
 17.git merge 分支名              //合并分支
 18.git branch -d dev             //删除分支
 19.git log --graph 		 //看到分支合并图
+20.git merge --no-ff -m "merge with no-ff" 分支名   //强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
+21.git stash 和 git stash pop    //当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
+22.开发一个新feature，最好新建一个分支；如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
