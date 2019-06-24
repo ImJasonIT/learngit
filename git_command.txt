@@ -16,3 +16,4 @@
 16.git checkout master           //切换分支
 17.git merge 分支名              //合并分支
 18.git branch -d dev             //删除分支
+19.git log --graph 		 //看到分支合并图
