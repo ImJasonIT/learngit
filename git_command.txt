@@ -9,3 +9,10 @@
 9. git checkout -- test.txt      //就是让这个文件回到最近一次git commit或git add时的状态
 10.rm test.txt                   //直接在文件管理器中把没用的文件删了
 11.git rm test.txt               //从版本库中删除该文件
+12.git remote add origin git@github.com:michaelliao/learngit.git //把本地仓库的内容推送到GitHub仓库
+13.git push -u origin master     //把本地库的所有内容推送到远程库上（第一次加-u，后面不用）
+14.git clone git@github.com:michaelliao/gitskills.git   //用命令git clone克隆一个本地库
+15.git checkout -b 分支名        //创建dev分支，然后切换到dev分支
+16.git checkout master           //切换分支
+17.git merge 分支名              //合并分支
+18.git branch -d dev             //删除分支
