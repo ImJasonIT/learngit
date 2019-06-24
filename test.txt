@@ -3,3 +3,5 @@ test: edit function
 JasonWong is not easy
 
 test github1
+
+Creating a new branch is quick.
